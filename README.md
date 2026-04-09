@@ -28,7 +28,6 @@ ssh -V
 
 ## 1. Clona struttura
 ```
-mkdir phishing_kit && cd phishing_kit
 mkdir -p templates static/{css,js,images}
 ```
 
@@ -41,18 +40,18 @@ pip install flask requests beautifulsoup4 lxml
 
 ## 3. Permessi script
 ```
-chmod +x new_target.sh start_pinggy.sh
+chmod +x new_target.sh pinggy.sh
 ```
 
 # 🎯 UTILIZZO
 
-## NEW TARGET (1 TERMINALE)
+## NEW TARGET (1 TERMINALE - VENV)
 ```
 ./new_target.sh
 python3.9 clone_phish.py
 ```
 
-## AVVIO SERVER (2 TERMINALE)
+## AVVIO SERVER (2 TERMINALE - VENV)
 ```
 python3.9 server.py
 ```
