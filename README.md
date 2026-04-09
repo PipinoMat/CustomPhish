@@ -28,6 +28,8 @@ ssh -V
 
 ## 1. Clona struttura
 ```
+git clone https://github.com/PipinoMat/CustomPhish.git
+cd CustomPhish
 mkdir -p templates static/{css,js,images}
 ```
 
