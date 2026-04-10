@@ -62,3 +62,10 @@ python3.9 server.py
 ./pinggly.sh
 ```
 
+### ⚠️Use this program only for educational purpose, every abuse it's ILLEGAL!⚠️
+
+
+<a href="https://buymeacoffee.com/pipinomat">
+  <button>SUPPORT THIS PROJECT FOR FUTURE VERSIONS <3</button>
+</a>
+
