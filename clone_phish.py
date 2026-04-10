@@ -6,6 +6,15 @@ import urllib.parse
 import re
 from urllib.parse import urljoin, urlparse
 
+print("""        
+     ______ __         __         __ _______              __    
+    |   __ \__|.-----.|__|.-----.|__|   |   |.---.-.----.|  |--.
+    |    __/  ||  _  ||  ||     ||  |       ||  _  |  __||    < 
+    |___|  |__||   __||__||__|__||__|___|___||___._|____||__|__|
+               |__|       Made In Italy                                      
+
+    TG: @YoungestMoonstar - GitHub: /PipinoMat""")
+
 
 def sanitize_filename(filename):
     """Rimuove caratteri non validi dai nomi file"""
