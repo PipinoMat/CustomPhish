@@ -7,6 +7,17 @@ app = Flask(__name__)
 PHISH_PORT = 5000
 CREDENTIALS_FILE = "credentials.txt"
 
+print("""        
+     ______ __         __         __ _______              __    
+    |   __ \__|.-----.|__|.-----.|__|   |   |.---.-.----.|  |--.
+    |    __/  ||  _  ||  ||     ||  |       ||  _  |  __||    < 
+    |___|  |__||   __||__||__|__||__|___|___||___._|____||__|__|
+               |__|       Made In Italy                                      
+
+    TG: @YoungestMoonstar - GitHub: /PipinoMat
+    
+    """)
+
 
 def log_credentials(data, victim_ip):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
